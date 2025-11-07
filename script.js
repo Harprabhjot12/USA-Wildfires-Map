@@ -13,7 +13,7 @@ require(["esri/views/MapView", "esri/WebMap"], (MapView, WebMap) => {
 });
 document.getElementById("clickButton").addEventListener("click", () => {
   if (window.view) {
-    alert("Zooming to California Wildfire Region 🚒");
+    alert("Zooming to California Wildfire Region ");
     window.view.goTo({
       center: [-119.4179, 36.7783],
       zoom: 6
